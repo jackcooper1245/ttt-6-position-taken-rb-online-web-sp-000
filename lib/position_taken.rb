@@ -1,4 +1,4 @@
 def position_taken?(board, index)
-  if " " == X || O
+  if index == X || O
     return false
 end
